@@ -1,0 +1,98 @@
+.order-history-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.order-history-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-history-card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.order-history-card-payment-status {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: #F5F5F5;
+  font-size: 14px;
+}
+
+.order-history-card-payment-status.paid {
+  background-color: #3cb371;
+}
+
+.order-history-card-payment-status.unpaid {
+  background-color: #ff6347;
+}
+
+.order-history-card-date, .order-history-card-transaction {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.order-history-card-date-label, .order-history-card-transaction-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.order-history-card-date-value, .order-history-card-transaction-value {
+  font-size: 16px;
+}
+
+.order-history-card-product {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.order-history-card-product-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.order-history-card-product-details {
+  flex: 1;
+}
+
+.order-history-card-product-title {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.order-history-card-product-meta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order-history-card-product-meta-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.order-history-card-product-meta-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.order-history-card-product-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
